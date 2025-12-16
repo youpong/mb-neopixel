@@ -1,5 +1,5 @@
 {
-    "name": "neopixcel",
+    "name": "mb-neopixel",
     "description": "",
     "dependencies": {
         "core": "*",
