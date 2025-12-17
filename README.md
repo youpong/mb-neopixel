@@ -3,12 +3,13 @@
 This is a sample project that uses NeoPixel with the BBC micro:bit.
 The lighting behavior is determined based on the values from the micro:bit’s
 accelerometer.
+This project uses the [MakeCode editor](https://makecode.microbit.org/#editor).
 
 > Open this page at [https://youpong.github.io/mb-neopixcel/](https://youpong.github.io/mb-neopixcel/)
 
 ## Setup
 
-### Download the program to the micro:bit
+### Import the project
 
 Access the MakeCode website.
 ![MakeCode](./images/myprj.png)
@@ -21,9 +22,20 @@ Select *Import URL...*
 
 ![URL](./images/url.png)
 
-
 Enter the URL and click *Go ahead!*
 https://github.com/youpong/mb-neopixel
+
+### Edit main.ts
+
+Modify the following constants to match your NeoPixel device.
+For example, if the number of pixels is 8:
+```ts
+const PIXEL_NUM = 8;
+```
+
+### Download the program
+
+Connect the micro:bit to your PC and download the program.
 
 ### Connecting the micro:bit and NeoPixel
 
