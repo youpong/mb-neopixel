@@ -1,5 +1,39 @@
+#　 mb-neopixel
+
+This is a sample project that uses NeoPixel with the BBC micro:bit.
+The lighting behavior is determined based on the values from the micro:bit’s
+accelerometer.
 
 > Open this page at [https://youpong.github.io/mb-neopixcel/](https://youpong.github.io/mb-neopixcel/)
+
+## Setup
+
+### Download the program to the micro:bit
+
+Access the MakeCode website.
+![MakeCode](./images/myprj.png)
+
+Click *Import*.
+
+![Import](./images/impt.png)
+
+Select *Import URL...*
+
+![URL](./images/url.png)
+
+
+Enter the URL and click *Go ahead!*
+https://github.com/youpong/mb-neopixel
+
+### Connecting the micro:bit and NeoPixel
+
+Connect as follows.
+
+| micro:bit | NeoPixel |
+|-----------|----------|
+| pin1      | SIG |
+| 3V.       | VCC |
+| GND       | GND |
 
 ## Use as Extension
 
@@ -17,6 +51,10 @@ To edit this repository in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/youpong/mb-neopixcel** and click import
+
+## License
+
+MIT
 
 #### Metadata (used for search, rendering)
 
