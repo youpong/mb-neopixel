@@ -1,4 +1,4 @@
-#　 mb-neopixel
+# mb-neopixel
 
 This is a sample project that uses NeoPixel with the BBC micro:bit.
 The lighting behavior is determined based on the values from the micro:bit’s
