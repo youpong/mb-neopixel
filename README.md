@@ -43,7 +43,7 @@ Connect as follows.
 
 | micro:bit | NeoPixel |
 |-----------|----------|
-| pin1      | SIG |
+| pin1      | DIN |
 | 3V.       | VCC |
 | GND       | GND |
 
