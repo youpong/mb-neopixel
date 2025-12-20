@@ -64,6 +64,10 @@ To edit this repository in MakeCode.
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/youpong/mb-neopixcel** and click import
 
+## References
+* https://github.com/youpong/m5-neopixel - A similar project for the M5StickC
+Plus by M5Stack Technology.
+
 ## License
 
 MIT
