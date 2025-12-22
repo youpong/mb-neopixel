@@ -3,14 +3,10 @@ const PIXEL_NUM = 24;
 let strip = neopixel.create(DigitalPin.P1, PIXEL_NUM, NeoPixelMode.RGB);
 let range = strip.range(0, 1);
 
-let hue = 0;
-let sat = 0;
-let lum = 0;
-
 basic.forever(function () {
-    hue = Math.map(input.acceleration(Dimension.X), -1023, 1023, 0, 360);
-    sat = Math.map(input.acceleration(Dimension.Y), -1023, 1023, 0, 100);
-    lum = Math.map(input.acceleration(Dimension.Z), -1023, 1023, 0, 100);
+    let hue = Math.map(input.acceleration(Dimension.X), -1023, 1023, 0, 360);
+    let sat = Math.map(input.acceleration(Dimension.Y), -1023, 1023, 0, 100);
+    let lum = Math.map(input.acceleration(Dimension.Z), -1023, 1023, 0, 100);
     range.showColor(neopixel.hsl(hue, sat, lum));
     strip.rotate(1);
 });
