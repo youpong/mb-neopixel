@@ -65,8 +65,12 @@ To edit this repository in MakeCode.
 * paste **https://github.com/youpong/mb-neopixcel** and click import
 
 ## References
-* https://github.com/youpong/m5-neopixel - A similar project for the M5StickC
-Plus by M5Stack Technology.
+- A similar project for the M5StickC Plus by M5Stack Technology written in
+  MicroPython.
+  https://github.com/youpong/m5-neopixel 
+- A similar project for the M5StickC Plus by M5Stack Technology developed with
+  Arduino IDE. 
+  https://github.com/youpong/m5-neopixel-sketch
 
 ## License
 
