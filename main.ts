@@ -1,6 +1,7 @@
 const PIXEL_NUM = 24;
+const PIXEL_PIN = DigitalPin.P1;
 
-let strip = neopixel.create(DigitalPin.P1, PIXEL_NUM, NeoPixelMode.RGB);
+let strip = neopixel.create(PIXEL_PIN, PIXEL_NUM, NeoPixelMode.RGB);
 let range = strip.range(0, 1);
 
 basic.forever(function () {
